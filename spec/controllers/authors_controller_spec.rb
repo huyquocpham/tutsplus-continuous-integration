@@ -8,7 +8,7 @@ describe AuthorsController do
       get :index
     end
 
-    it 'populates an array of authors' do
+    it 'populates an array of authors HUY' do
       expect(assigns(:authors).count).to eq(Author.count)
     end
 
