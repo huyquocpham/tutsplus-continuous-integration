@@ -5,8 +5,8 @@ default: &default
 
 development:
   <<: *default
-  database: order-book_development
+  database: order_book_development
 
 test:
   <<: *default
-  database: order-book_test
+  database: order_book_test
