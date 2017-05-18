@@ -4,7 +4,7 @@ RSpec.describe PublishersController, type: :controller do
   let(:publisher) { FactoryGirl.create(:publisher) }
 
   describe 'GET #index' do
-    it 'assigns the publishers to an array' do
+    it 'assigns the publishers to an array HUY' do
       FactoryGirl.create(:publisher)
       get :index
       expect(assigns(:publishers).count).to eq(Publisher.count)
