@@ -17,3 +17,4 @@ deploy:
   migrate: rake db:migrate
   on:
     repo: huyquocpham/tutsplus-continuous-integration
+    rvm: '2.2'
